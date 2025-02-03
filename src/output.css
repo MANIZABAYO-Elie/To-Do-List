@@ -794,6 +794,9 @@
   .h-\[500px\] {
     height: 500px;
   }
+  .h-\[700px\] {
+    height: 700px;
+  }
   .h-screen {
     height: 100vh;
   }
@@ -1399,6 +1402,10 @@
     border-style: var(--tw-border-style);
     border-width: 4px;
   }
+  .border-\[1px\] {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
+  }
   .border-x {
     border-inline-style: var(--tw-border-style);
     border-inline-width: 1px;
@@ -1725,6 +1732,9 @@
     font-size: var(--text-xl);
     line-height: var(--tw-leading, var(--text-xl--line-height));
   }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
   .leading-none {
     --tw-leading: 1;
     line-height: 1;
@@ -1806,8 +1816,17 @@
   .\[color\:red\]\/50\! {
     color: color-mix(in oklab, red 50%, transparent) !important;
   }
+  .text-\[10p\] {
+    color: 10p;
+  }
+  .text-\[1\] {
+    color: 1;
+  }
   .text-gray-700 {
     color: var(--color-gray-700);
+  }
+  .text-red-500 {
+    color: var(--color-red-500);
   }
   .capitalize {
     text-transform: capitalize;

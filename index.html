@@ -5,9 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./src/output.css" rel="stylesheet">
   <title>TO DO LIST</title>
+  <style>
+    .delete {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px;
+            cursor: pointer;
+        }
+  </style>
 </head>
 <body>
-     <div class="container white shadow-2xl flex items-center justify-center  mx-auto w-[700px] h-[500px]">
+     <div class="container white shadow-2xl flex items-center justify-center  mx-auto w-[700px] h-[700px]">
         <div class="block">
             <h1>To Do List</h1>
         <div class="taskInput">
@@ -15,13 +24,32 @@
             <button id="addButton" class=" border black  rounded-lg px-4 py-2">Add</button>
         </div>
         <ul id="taskList">
-            <li class=" rounded-[8px] bg-gray-300"></li>
+            <li class="rounded-[8px] bg-gray-300"></li>
         </ul>
         <button id="clearAllTask" class="border purple bg-amber-400  rounded-lg px-4 py-2">Clear All</button>
             
         </div>
-        <p id="displayAlert"></p>
+        <p id="displayAlert" class="text-[10px] text-red-500"></p>
      </div>
     <script src="./script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+   
+</head>
+<body>
+    <div class="container">
+        <h2>To-Do List</h2>
+        <input type="text" id="task" placeholder="Add a new task...">
+        <button onclick="addTask()">Add</button>
+        <ul id="taskList"></ul>
+    </div>
+
 </body>
 </html>
