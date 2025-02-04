@@ -5,19 +5,6 @@ const clearAllTask = document.getElementById('clearAllTask');
 const displayAlert = document.getElementById('displayAlert');
 addButton.addEventListener('click',addTask);
 
-// function addTask(){
-//        const taskText = taskInput.value.trim();
-//        if(taskText===""){
-//               displayAlert.textContent ="enter a valid text";
-//        }
-//        let li = document.createElement("li");
-//        li.textContent = taskInput.value;
-//        taskList.appendChild(li);
-
-     
-       
-//        };
-            
 
 function addTask() {
   const taskText = taskInput.value.trim();
